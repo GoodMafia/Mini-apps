@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left-panel{
+    position: fixed;
+    width: 0px;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    transition: width 0.4s;
+}
+.close{ 
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+button {
+    width: 50px;
+}
+button img{
+    width: 40px;
+}
